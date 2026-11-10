@@ -16,8 +16,7 @@ venv/
 # ---- 日志与运行时缓存 ----
 *.log
 logs/
-.fin_cache.json
-.sw_cache.json
+*_cache.json
 
 # ---- 前端 ----
 node_modules/
