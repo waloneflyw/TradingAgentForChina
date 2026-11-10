@@ -1,0 +1,20 @@
+# 阶段 0 后端依赖（运行环境：D:\py\python.exe，Python 3.12.8）
+# 以上环境已安装，此处仅作清单；如需重建环境按需安装。
+pymysql
+aiomysql
+SQLAlchemy
+pandas
+numpy
+
+# xtquant 为 QMT 客户端 SDK，随券商安装包分发，不走 pip（D:\py 已装）。
+
+# ---- 阶段 3 agent 层依赖（运行环境：tradingagents conda，已装，此处仅清单）----
+# langchain-core>=0.3.81
+# langchain-openai>=0.3.23
+# langgraph>=0.4.8
+# stockstats>=0.6.5
+
+# ---- 阶段 4 API 层依赖（运行环境：tradingagents conda，已装，此处仅清单）----
+# fastapi>=0.115
+# uvicorn>=0.30
+# pydantic>=2（随 fastapi 安装）

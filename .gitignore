@@ -1,0 +1,36 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# ---- 敏感配置 / 密钥（严禁提交）----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- 日志与运行时缓存 ----
+*.log
+logs/
+.fin_cache.json
+.sw_cache.json
+
+# ---- 前端 ----
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ---- IDE / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- 个人草稿笔记（不入库）----
+命令笔记.txt
+股票分析.txt
